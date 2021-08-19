@@ -17,7 +17,7 @@ int main()
     }
     for(int j=0;j<m;j++)
     {
-        if(j%1==0){
+        if(j%2==0){
             for(int i=0;i<n;i++)
             {
                 cout << a1[i][j] << endl;
